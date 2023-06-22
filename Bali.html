@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TravelMorre</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<STYle>
+/* Reset some default styles */
+body, h1, h2, h3, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+#destination {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#destination h2 {
+  margin-bottom: 10px;
+}
+
+#schedule, #tips {
+  background-color: #fff;
+  padding: 60px;
+  margin-bottom: 20px;
+  margin: auto;
+  width: 80%;
+  display: flex; flex-wrap: wrap; 
+  justify-content: space-around;
+}
+
+#schedule h2, #tips h2 {
+  margin-bottom: 10px;
+}
+
+#schedule li, #tips li {
+  margin-bottom: 10px;
+}
+.sche-cont{
+  width: 70%;
+}
+footer {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+.sche-cont li{
+  margin-top: 20px;
+  padding-right: 20px;
+}
+</STYle>
+<link rel="shortcut icon" href="assets/images/mlogo.ico" type="image/png">
+<!--====== Google Fonts ======-->
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<!--====== Flaticon css ======-->
+<link rel="stylesheet" href="assets/fonts/flaticon/flaticon_gowilds.css">
+<!--====== FontAwesome css ======-->
+<link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
+<!--====== Bootstrap css ======-->
+<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+<!--====== magnific-popup css ======-->
+<link rel="stylesheet" href="assets/vendor/magnific-popup/dist/magnific-popup.css">
+<!--====== Slick-popup css ======-->
+<link rel="stylesheet" href="assets/vendor/slick/slick.css">
+<!--====== Jquery UI css ======-->
+<link rel="stylesheet" href="assets/vendor/jquery-ui/jquery-ui.min.css">
+<!--====== Nice Select css ======-->
+<link rel="stylesheet" href="assets/vendor/nice-select/css/nice-select.css">
+<!--====== Animate css ======-->
+<link rel="stylesheet" href="assets/vendor/animate.css">
+<!--====== Default css ======-->
+<link rel="stylesheet" href="assets/css/default.css">
+<!--====== Style css ======-->
+<link rel="stylesheet" href="assets/css/style.css">
+<body>
+  <header class="header-area header-one transparent-header">
+    <!--====== Header Navigation ======-->
+    <div class="header-navigation navigation-white">
+        <div class="nav-overlay"></div>
+        <div class="container-fluid">
+            <div class="primary-menu">
+                <!--====== Site Branding ======-->
+                <div class="site-branding">
+                    <a href="index.html" class="brand-logo" style="width:200px;"><img src="assets/images/logo/Travel-white.png" alt="Site Logo"></a>
+                </div>
+                <!--====== Nav Menu ======-->
+                <div class="nav-menu">
+                    <!--====== Site Branding ======-->
+                    <div class="mobile-logo mb-30 d-block d-xl-none">
+                        <a href="index.html" class="brand-logo"><img src="assets/images/logo/Travel-black.png" alt="Site Logo"></a>
+                    </div>
+                    <!--=== Nav Search ===-->
+                    <!-- <div class="nav-search mb-30 d-block d-xl-none ">
+                        <form>
+                            <div class="form_group">
+                            <input type="email" class="form_control" placeholder="Search Here" name="email" required>
+                                <button class="search-btn"><i class="fas fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div> -->
+                    <!--====== main Menu ======-->
+                    <nav class="main-menu">
+                        <ul>
+                            <!-- <li class="menu-item has-children"><a href="index.html">Home</a> -->
+                                <!-- <ul class="sub-menu">
+                                    <li><a href="index.html">Home 01</a></li>
+                                    <li><a href="index-2.html">About</a></li>
+                                    <li><a href="index-3.html">Destination</a></li>
+                                    <li><a href="index-4.html">Contact</a></li>
+                                </ul> -->
+                            <!-- </li> -->
+                            <!-- <li class="menu-item has-children"><a href="#">About</a> -->
+                                <!-- <ul class="sub-menu">
+                                    <li><a href="tour.html">Tours</a></li>
+                                    <li><a href="tour-details.html">Tours Details</a></li>
+                                </ul> -->
+                            <!-- </li> -->
+                            <!-- <li class="menu-item has-children"><a href="#">Destination</a> -->
+                                <!-- <ul class="sub-menu">
+                                    <li><a href="destination.html">Destination</a></li>
+                                    <li><a href="destination-details.html">Destination Details</a></li>
+                                </ul> -->
+                            <!-- </li> -->
+                            <!-- <li class="menu-item has-children"><a href="#">Our Gallery</a> -->
+                                <!-- <ul class="sub-menu">
+                                    <li><a href="blog-list.html">Blog List</a></li>
+                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                </ul> -->
+                            <!-- </li> -->
+                            <!-- <li class="menu-item has-children"><a href="#">Contact</a> -->
+                                <!-- <ul class="sub-menu">
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="gallery.html"></a></li>
+                                    <li><a href="events.html">Our Events</a></li>
+                                    <li><a href="shop.html">Our Shop</a></li>
+                                    <li><a href="product-details.html">Product Details</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul> -->
+                            <!-- </li> -->
+                            <!-- <li class="menu-item search-item">
+                                <div class="search-btn" data-bs-toggle="modal" data-bs-target="#search-modal"><i class="far fa-search"></i></div>
+                            </li> -->
+                        </ul>
+                    </nav>
+                    <!--====== Menu Button ======-->
+                 
+                </div>
+                <!--====== Nav Right Item ======-->
+                <div class="nav-right-item">
+                    <!-- <div class="menu-button d-xl-block d-none">
+                        <a href="contact.html" class="main-btn primary-btn">Book Now<i class="fas fa-paper-plane"></i></a>
+                    </div> -->
+                    <!-- <div class="navbar-toggler">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+  <section id="destination">
+    <h2>Destination: Paris, France</h2>
+    
+  </section>
+
+  <section id="schedule" >
+    <div class="sche-cont">
+      <p style="text-align: justify; padding-right: 30px; padding-bottom: 30px;">There is no other place like Bali in this world. A magical blend of culture,
+        people, nature, activities, weather, culinary delights, nightlife, and
+        beautiful accommodation. Bali is rated as one of the best travel
+        destinations in the world by countless websites, review portals, and travel
+        magazines each year – for very good reasons. Whatever your age,
+        background, budget, or interest, there is something great for everyone to
+        explore and discover. And that’s a promise. Bali is unique, Bali is
+        unmatched! Magical Bali!</p>
+    <h2>Schedule</h2>
+    <ul>
+      <li>
+        <h3>Day 01 – Denpesar Airport – Resort in Kuta</h3>
+        <p>Upon arrival at Ngurah Rai International Airport, make your way to the
+          Immigration and Meet and greet our guide outside the immigration
+          area with your name/group name placard. Afterward, we will transfer
+          you to the hotel for check-in to the hotel, Enjoy your evening by
+          walking amidst the local streets, relishing some local delicacies, and
+          chilling at the ever-so-amazing bars. Overnight stay at the Resort in
+          Kuta.
+          </p>
+      </li>
+      <li>
+        <h3>Day 02 – Full Day Lempuyang Temple Tour
+        </h3>
+        <p>After breakfast Proceed for Lempuyang Temple Tour Ever wondered
+          what it is like actually to visit The Gates of Heaven? If you are visiting
+          Bali, then this popular place must be on your list of things to see and
+          do. Most people visit here to get an epic shot between the Candi
+          Bentar â€“ The Gateway. This andi Bentara is a split gateway seen in
+          almost all Balinese entrances of religious compounds., Overnight in
+          Kuta.
+          </p>
+      </li>
+      <li>
+        <h3>Day 03 Full Day Nusa Penida Tour with Lunch</h3>
+        <p>After breakfast proceed for Full day tour to Nusa Penida by Fast Boat
+          will give you an experience you will never forget. This is a relatively
+          undeveloped island southeast of the mainland of Bali. Nusa means
+          Island and Penida means priests in Balinese. You wonâ€™t find the
+          snazzy beach clubs, organic cafes or trendy restaurants here, but Nusa
+          Penida is still worthy of a visit. It houses some of the most photogenic
+          sights in Bali. get back to Hotel and Overnight in Kuta.
+          </p>
+      </li>
+      <li>
+        <h3>Day 04 – Full Day Benoa Beach With Uluwatu Sunset Tour Private</h3>
+        <p><b>Includes : Banana Boat,Uluwatu Temple
+        </b><br>After breakfast .An ideal Bali holiday is incomplete withoutTanjung
+          Benoa beach. This beach best known for its aquatic adventure is
+          located in the Benoa peninsula far away from the hustle & bustle.. In
+          the late afternoon proceed to the southern tip of Bali for Uluwatu
+          Sunset tour. Uluwatu Temple, or Pura Luhur Uluwatu, is renowned for
+          its magnificent location, perched on top of a steep cliff approximately
+          70 metres above the waves. As one of the 6 key temples considered to
+          be Bali's 'spiritual pillars', Uluwatu also offers a splendid sunset
+          backdrop. It is definitely one of the top places in Bali for witnessing a
+          delightful sunset, with direct views overlooking the beautiful waves of
+          the Indian Ocean Overnight in Kuta.
+          </p>
+      </li>
+      <li>
+        <h3>Day 05 –Free for Leisure
+        </h3>
+        <p>After breakfast Full day free for Leisure, Overnight in Kuta.</p>
+      </li>
+      <li>
+        <h3>Day 06 – Hotel to Airport Transfer
+        </h3>
+        <p>After breakfast Check out from Hotel & Transfer to airport and Fly
+          back home with lovely Memory.</p>
+          <hr style="width: 70%;">
+      </li>
+    </ul>
+ 
+    <h2 style="margin-top: 50px;">TRAVEL REQUIREMENTS</h2>
+    <ul>
+      <li><b>For Fully Vaccinated -</b> only Need to Bring 2nd /3rd Dose Vaccine Certificate
+        with QR Code for Arrival & Departure Both
+        </li>
+      <li><b>For Non Vaccinated - </b>Travelers need to get a Stamped and Signed RT-PCR
+        negative test report from ICMR approved lab issued not more than 48hrs
+        prior to the departure & 01 while Retuning to India</li>
+      <li>Learn a few basic French phrases</li>
+    </ul>
+
+    <h2 style="margin-top: 50px;">INCLUSIONS
+    </h2>
+    <ul>
+      <li>Meet & Greet Assistance at the Airport</li>
+      <li>05 Nights accommodation as per above details on BB basis</li>
+      <li>L05 Breakfast in Resort + 01 Lunch with activity</li>
+      <li>Airport to Risata Bali Resort & Spa & Resort to Airport Transfer on
+        Private Basis
+        </li>
+      <li>Full Day Lempuyang Temple Tour on Private Basis</li>
+      <li>Full Day Nusa Penida Tour on Private Basis Includes : 3 Island Tour +
+        Local Lunch</li>
+      <li>Interhotel Transfer for Option 2
+      </li>
+      <li>Full Day Benoa Beach With Uluwatu Sunset Tour on Private Basis
+        Includes : Banana Boat,</li>
+      <li>Full Day Benoa Beach With Uluwatu Sunset Tour on Private Basis
+        Includes : Banana Boat,</li>
+      <li>Travel Insurance</li>
+    </ul>
+  </div>
+  <div style="width: 30%;">
+    <img src="assets/images/place/bali.png" alt="Paris" style="width: 100%;">
+  </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Your Travel Agency. All rights reserved.</p>
+  </footer>
+</body>
+</html>
