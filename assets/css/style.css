@@ -6480,6 +6480,23 @@ ul.slick-dots li.slick-active {
   margin-bottom: 38px;
 }
 
+@media (max-width: 500px) {
+  .steps_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: #fbf1e3;
+    border-radius: 100%;
+    margin: 0 0rem;
+  }
+  .steps_image {
+    width: 0.4rem;
+    height: 0.4rem;
+  }
+}
+
 .steps_wrapper {
   display: flex;
   justify-content: center;
@@ -6488,10 +6505,22 @@ ul.slick-dots li.slick-active {
   height: 5rem;
   background-color: #fbf1e3;
   border-radius: 100%;
-  margin: 0 2.5rem;
+  margin: 0 0.5rem;
 }
 
 .steps_image {
   width: 2rem;
   height: 2rem;
+}
+
+@media (max-width: 500px) {
+  .hidden-section {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1600px) {
+  .hidden-section-full {
+    display: none;
+  }
 }
