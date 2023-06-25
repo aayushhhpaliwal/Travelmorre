@@ -6480,6 +6480,23 @@ ul.slick-dots li.slick-active {
   margin-bottom: 38px;
 }
 
+@media only screen and (min-width: 10px) and (max-width: 500px) {
+  .steps_wrapper {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 2rem;
+    height: 2rem;
+    background-color: #fbf1e3;
+    border-radius: 100%;
+    margin: 0 0.5rem;
+  }
+  .steps_image {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
 .steps_wrapper {
   display: flex;
   justify-content: center;
