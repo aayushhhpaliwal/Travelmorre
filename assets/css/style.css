@@ -6519,7 +6519,7 @@ ul.slick-dots li.slick-active {
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 1600px) {
+@media only screen and (min-width: 500px) and (max-width: 2600px) {
   .hidden-section-full {
     display: none;
   }
