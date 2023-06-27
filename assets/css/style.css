@@ -631,7 +631,6 @@ body {
 }
 
 .mbm-150 {
-  
   margin-bottom: -130px;
 }
 
@@ -6479,4 +6478,49 @@ ul.slick-dots li.slick-active {
   .reviews-progress
   .single-progress-bar:not(:last-child) {
   margin-bottom: 38px;
+}
+
+@media (max-width: 500px) {
+  .steps_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: #fbf1e3;
+    border-radius: 100%;
+    margin: 0 0rem;
+  }
+  .steps_image {
+    width: 0.4rem;
+    height: 0.4rem;
+  }
+}
+
+.steps_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  background-color: #fbf1e3;
+  border-radius: 100%;
+  margin: 0 0.5rem;
+}
+
+.steps_image {
+  width: 2rem;
+  height: 2rem;
+}
+
+@media (max-width: 500px) {
+  .hidden-section {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 2600px) {
+  .hidden-section-full {
+    display: none;
+  }
 }

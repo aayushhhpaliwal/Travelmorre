@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* Header Styles */
+.header {
+  background-color: #f7921e;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 32px;
+}
+
+/* Content Styles */
+.content {
+  padding: 20px;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
+.content .day {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content .day-date {
+  font-size: 18px;
+  color: #f7921e;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
